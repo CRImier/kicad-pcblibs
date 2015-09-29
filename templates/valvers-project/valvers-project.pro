@@ -1,4 +1,4 @@
-update=Tue 29 Sep 2015 22:12:13 BST
+update=Tue 29 Sep 2015 23:32:00 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,4 @@ LibDir=../../components;../kicad-libs/components
 [eeschema/libraries]
 LibName1=power_symbols
 LibName2=passives
+LibName3=hybrids
