@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:power_symbols
 LIBS:passives
 EELAYER 25 0
 EELAYER END
@@ -14,58 +15,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CAP C?
-U 1 1 560B0001
-P 5700 3550
-F 0 "C?" H 5775 3625 60  0000 L CNN
-F 1 "CAP" H 5775 3475 60  0000 L CNN
-F 2 "" H 5700 3550 60  0000 C CNN
-F 3 "" H 5700 3550 60  0000 C CNN
-	1    5700 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R?
-U 1 1 560B007B
-P 5150 3550
-F 0 "R?" H 5150 3650 60  0000 C CNN
-F 1 "RES" H 5150 3550 60  0000 C CNN
-F 2 "" H 5150 3550 60  0000 C CNN
-F 3 "" H 5150 3550 60  0000 C CNN
-	1    5150 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R?
-U 1 1 560B0124
-P 5150 3750
-F 0 "R?" H 5150 3850 60  0000 C CNN
-F 1 "RES" H 5150 3750 60  0000 C CNN
-F 2 "" H 5150 3750 60  0000 C CNN
-F 3 "" H 5150 3750 60  0000 C CNN
-	1    5150 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R?
-U 1 1 560B015B
-P 5150 3950
-F 0 "R?" H 5150 4050 60  0000 C CNN
-F 1 "RES" H 5150 3950 60  0000 C CNN
-F 2 "" H 5150 3950 60  0000 C CNN
-F 3 "" H 5150 3950 60  0000 C CNN
-	1    5150 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 3550 5550 3550
-Wire Wire Line
-	5450 3550 5450 3950
-Wire Wire Line
-	5450 3950 5400 3950
-Wire Wire Line
-	5400 3750 5450 3750
-Connection ~ 5450 3750
-Connection ~ 5450 3550
 $EndSCHEMATC
