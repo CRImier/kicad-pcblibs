@@ -1,4 +1,4 @@
-update=Tue 29 Sep 2015 23:32:00 BST
+update=Thu 03 Dec 2015 20:06:00 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -32,3 +32,4 @@ LibDir=../../components;../kicad-libs/components
 LibName1=power_symbols
 LibName2=passives
 LibName3=hybrids
+LibName4=semiconductors
